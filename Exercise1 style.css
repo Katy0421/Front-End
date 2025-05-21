@@ -1,0 +1,80 @@
+p{
+    color: white;
+}
+#first{
+    text-align: center;
+    font-size:250%;
+    font-weight: bold;
+    position: relative;
+    left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 5px;
+}
+
+#second{
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+#last{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 90%;
+    position: relative;
+    right: 15px;
+    word-spacing: 3px;
+}
+textarea{
+    resize:none
+    
+}
+body{
+    background-color: darkred;
+}
+label{
+    color: white;
+    font-weight:600;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 1;
+    position: relative;
+    left: 200px;
+}
+input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    line-height: 1;
+}
+.center{
+    position:sticky;
+    left: 520px;
+}
+#reset{
+    position: fixed;
+    left: 207px;
+}
+.fm{
+    position: relative;
+    left: 475px;
+    font-size: 15px;
+}
+input[type=text]{
+    box-sizing:border-box;
+    width: 255px;
+}
+input[type=email]{
+    box-sizing: border-box;
+    width: 255px;
+}
+#select1{
+    box-sizing: border-box;
+    width: 210px;
+}
+#select2{
+    box-sizing: border-box;
+    width: 160px;
+}
+
