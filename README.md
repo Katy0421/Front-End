@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+    <link rel="stylesheet" href="Exercise1 style.css">
+</head>
+<body>
+    <div>
+    <p id="first">
+        SOME UNIVERSITY
+    </p>
+    <p id="second">
+        Student Registration Form
+    </p>
+    <form action="Exercise 1.html" method="post"></form>
+    <label for="Name">Name:</label>
+    <input type="text" name="Name" placeholder="jessebett" class="center"><br>
+
+    <label for="Date of birth">DOB:</label>
+    <input type="date" name="Date of birth" placeholder="21/12/2019" class="center"><br>
+    
+    <label for="Gender">Sex:</label>  
+    <input type="radio" name="gender" id="male" class="fm"><label for="Male" class="fm">Male</label>
+    <input type="radio" name="gender" id="female" class="fm"><label for="female" class="fm">Female</label><br>
+    
+    <label for="Mail">Email</label>
+    <input type="email" name="email" placeholder="jessekip21@gmail.com" class="center"><br>
+    
+    <label for="Address">Address:</label>
+    <input type="text" name="Address" placeholder="123 Main Street" class="center"><br>
+    
+    <label for="School">School:</label>
+    <select name="School" id="select1" class="center">
+        <option value="">Medicine and Health Sciences</option>
+        <option value="">Engineering School</option>
+        <option value="">Chemistry School</option>
+        <option value="">Literature School</option>
+    </select><br>
+
+    <label for="Department">Department:</label>
+    <select name="Department" id="" class="center">
+        <option value="">Clinical Medicine</option>
+        <option value="">Architecture</option>
+        <option value="">Chemical</option>
+        <option value="">Poetry</option>
+    </select><br>
+
+    <label for="Course">Course:</label>
+    <select name="Course" id="select2" class="center">
+        <option value="">Bsc Clinical Medicine</option>
+        <option value="">Bsc Architecture</option>
+        <option value="">Bsc Chemistry</option>
+        <option value="">Bsc Poetry</option>
+    </select><br>
+
+    <label for="Mobile Number">Mobile Number:</label>
+    <input type="text" name="number" placeholder="000000000" class="center"><br>
+
+    <input type="Reset" id="reset">
+    <input type="Submit" class="center">
+    <p id="last">
+        some university motto n' stuff.
+    </p>
+    </div>
+</body>
+</html>
